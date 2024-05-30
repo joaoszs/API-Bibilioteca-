@@ -6,13 +6,13 @@
 * #### Clone o repositorio https://github.com/joaoszs/API-Bibilioteca-.git
 * #### inicie o servidor utilizando o comando ' node server.js ' (lembre-se de alterar os caminhos caso nescessario).
 * #### você pode usar ferramentas da sua preferencia para enviar requisições para o servidor.
-* #### Para listar os livros : Envie uma solicitação GET para http://localhost:3001/livros.
-* #### Para comprar um livro : Envie uma solicitação POST para http://localhost:3001/livros/comprar, lembre-se de incluir no body da solicitação o id do livro que deseja comprar e a quantidade desejada (.json) . Por exemplo: 
+* #### Para listar os livros : Envie uma requisição GET para http://localhost:3001/livros.
+* #### Para comprar um livro : Envie uma requisição POST para http://localhost:3001/livros/comprar, lembre-se de incluir no body da solicitação o id do livro que deseja comprar e a quantidade desejada (.json) . Por exemplo: 
         {  
           "id": 1,
           "quantidade": 2
         }
-* #### Para Adicionar um novo livro : Envie uma solicitação POST para http://localhost:3001/livros/adicionar, incluindo no body da solicitação os detalhes do novo livro, titulo, autor, preco e estoque (.json). Por exemplo:
+* #### Para Adicionar um novo livro : Envie uma requisição POST para http://localhost:3001/livros/adicionar, incluindo no body da solicitação os detalhes do novo livro, titulo, autor, preco e estoque (.json). Por exemplo:
         {
           "titulo": "Novo Livro",
           "autor": "Autor Desconhecido",
