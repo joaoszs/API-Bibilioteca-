@@ -3,6 +3,7 @@
 #### Trabalho desenvolvido para disciplina de desenvolvimento web UCB, consiste em uma API (somente backend) de um sistema de bibilioteca, a API possui 3 funcionalidades sendo elas, Listar livros, Comprar livros e adicionar um novo livro.
 
 # Como utilizar :
+* #### Clone o repositorio https://github.com/joaoszs/API-Bibilioteca-.git
 * #### inicie o servidor utilizando o comando ' node server.js ' (lembre-se de alterar os caminhos caso nescessario).
 * #### você pode usar ferramentas como Postman ou Insomnia para enviar requisições para o servidor.
 * #### Para listar os livros : Envie uma solicitação GET para http://localhost:3001/livros.
