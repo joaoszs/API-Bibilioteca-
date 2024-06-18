@@ -5,7 +5,7 @@
       "titulo": "Meditações",
       "autor": "Marco Aurélio",
       "genero": "Filosofia",
-      "estoque": 8,
+      "estoque": 5,
       "imagem": "https://m.media-amazon.com/images/I/41bQU67zLnL._SY445_SX342_.jpg"
     },
     {
@@ -79,9 +79,6 @@
       "genero": "Ficção Científica",
       "estoque": 10,
       "imagem": "https://m.media-amazon.com/images/I/41D2p1NDFkL._SY445_SX342_.jpg"
-    },
-    {
-      "id": 11
     }
   ]
 }

@@ -3,19 +3,16 @@ const path = require('path');
 
 const livrosFilePath = path.join(__dirname, '../../livros.json');
 
-const lerLivros = () => 
-{
+const lerLivros = () => {
   const dados = fs.readFileSync(livrosFilePath, 'utf8');
   return JSON.parse(dados);
 };
 
-const escreverLivros = (livros) => 
-{
+const escreverLivros = (livros) => {
   fs.writeFileSync(livrosFilePath, JSON.stringify(livros, null, 2));
 };
 
-module.exports = 
-{
+module.exports = {
   lerLivros,
   escreverLivros
 };
