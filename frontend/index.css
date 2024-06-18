@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body 
+{
+    background-color: #0056b3;
+}
+
+.scroll-link 
+{
+    cursor: pointer;
+    color: #000000; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; 
+    background: transparent;
+}
+
+.scroll-link:hover 
+{
+    color: tomato; 
+    background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+  width: 20px;
+}
+
+::-webkit-scrollbar-track
+{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb 
+{
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+.container 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header 
+  {
+    background: #fff;
+    color: #000000;
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  header input 
+  {
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  nav ul 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li 
+  {
+    margin-right: 20px;
+  }
+  
+  nav ul li a 
+  {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover 
+  {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section 
+  {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  section h2 
+  {
+    margin-bottom: 20px;
+  }
+  
+  .livros-container 
+  {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .livro 
+  {
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .livro img 
+  {
+  max-width: 100%;
+  max-height: 200px; 
+  width: auto;
+  height: auto;
+  object-fit: contain; 
+  border-radius: 5px 5px 0 0;
+  position: center;
+  }
+  
+  .livro-info 
+  {
+    padding: 20px;
+  }
+  
+  .livro-info h3 
+  {
+    margin-bottom: 10px;
+  }
+  
+  .livro-info p 
+  {
+    margin-bottom: 5px;
+  }
+  
+  .btn-group 
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .editar-btn,
+  .comprar-btn,
+  .remover-btn 
+  {
+    background-color: #676869;
+    color: #ffffff;
+    padding: 5px 12px;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.5s ease-in-out;
+    
+  }
+  
+  .editar-btn:hover 
+  {
+    background-color: rgb(71, 181, 255);
+  }
+
+  .remover-btn:hover 
+  {
+    background-color: #b30000;
+  }
+
+  .comprar-btn:hover 
+  {
+    background-color: #45a049;
+  }
+  
+  form 
+  {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-group 
+  {
+    margin-bottom: 15px;
+  }
+  
+  form label 
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"] 
+  {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button 
+  {
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  form button:hover 
+  {
+    background-color: #45a049;
+  }
+  
+  
+  @media (max-width: 768px) 
+  {
+    .livros-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .livro img 
+    {
+      height: 150px;
+    }
+  }

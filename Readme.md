@@ -20,6 +20,9 @@
           "estoque": 10
         }
 
+# Atualizacoes 
+
+### foi colocado novos endpoints e tambem adicionado o front end do projeto. 
 
 
 
